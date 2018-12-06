@@ -6,51 +6,60 @@ body{
 }
 #scr{
     position: absolute;
-    border-width: thin;
+    border-width: medium;
     border-color:brown;
     border-style: solid;
-    width:60%;
-    height:600px;
-    top:33px;
+    width:60vw;
+    height:90vh;
+    top: 2vh;
     left:45px;
+	margin-left: 2 vw;
 }
 p{
-    font-size: 60px;
+	text-align: center;
+    font-size: 6vw;
+	font-size: 4vw;
     color:chocolate;
 }
 #opt{
     text-align:center;
     float:right;
-    height: 650px;
-    width:30%;
+    height: 90vh;
+    width:25vw;
     border-color: brown;
     border-style: solid;
-    border-width: thin;
+    border-width: medium;
     background-color: bisque;
     position: relative;
-    top:10px;
-    right:30px;
+    top: 2vw;
+	margin-left: 3vw;
+    margin-right:3vw;
     border-radius: 30px;
 }
 /* Added h1 style for preview page */
 #opt h1 {
     font-size: 60px;
+	font-size: 5vw;	
+	text-align: top;
     color:chocolate;
 };
 .t{
     align-items: center;
     font-size: 20px;
+	font-size: 6vw;
     color:chocolate;
 }
 .tl{
     width:250px;
-    text-align: center;
+	font-size: 2vw;
 }
 .tb{
     align-content: center;
 }
 .bu{
-    width:100px;
+	margin-right:2vw;
+    width:12vw;
+	font-size: 2vw;
 }
 #tp{
     position: relative;
