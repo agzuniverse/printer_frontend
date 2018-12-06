@@ -32,6 +32,11 @@ p{
     right:30px;
     border-radius: 30px;
 }
+/* Added h1 style for preview page */
+#opt h1 {
+    font-size: 60px;
+    color:chocolate;
+};
 .t{
     align-items: center;
     font-size: 20px;
