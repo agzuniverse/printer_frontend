@@ -36,6 +36,7 @@ p{
     align-items: center;
     font-size: 20px;
     color:chocolate;
+    padding-bottom: 20px;
 }
 .tl{
     width:250px;
@@ -53,7 +54,7 @@ p{
 }
 .c{
     position:relative;
-    top:150px;
+    top:130px;
     padding-left: 150px;
 }
 
@@ -129,4 +130,22 @@ input[type=text], input[type=password] {
     width:600px;
     border-radius: 30px;
 }
-
+#up{
+    width:290px;
+    margin-left: 58px;
+    background-color: antiquewhite;
+}
+.se{
+    width:100px;
+    background-color: antiquewhite;
+    border-color: brown;
+}
+.tr{
+    color:chocolate;
+    text-align:center;
+}
+#num{
+    width:100px;
+    background-color: antiquewhite;
+    border-color: brown;
+}
