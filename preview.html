@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>select</title>
+        <title>[MEC] Printer Preview</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <iframe id="scr" src=""></iframe>
+    <div class = "body"> 
         <div id="opt">
-            <p>
-                name
-            </p>
+            <h1>                         <!-- Heading tag seems more appropriate than paragraph-->
+                MEC PRINTER
+            </h1>
             <table id="tp">
                 <tr>
+
                     
                     <td class="t tb" colspan="2">
                         <input type="file" accept="application/pdf" name="upload" id="up">
+
                     </td>
                 </tr>
                 <tr>
                     <td class="t tl">
+
                         Select type:
                     </td>
                     <td class="t tb">
@@ -56,10 +59,16 @@
                     <td class="t tb c">
                         <button type="button" class="btn btn-danger bu">
                             confirm
+
                         </button>
                     </td>
-                </tr>
+                </tr> -->
+                <!-- Commented out the bottom confirmation. Seems unecessary. -->
             </table>
         </div>
+		
+		<iframe id="scr" src=""></iframe>
+		
+	</div>
     </body>
 </html>

@@ -1,53 +1,89 @@
 
 *{
-    margin:0px;
+
+	margin:0px;
 }
 body{
     background-color: antiquewhite;
 }
+.body div {
+    padding: 20px;
+    float: left;
+    border:1px solid #aaa;
+}
 #scr{
-    position: absolute;
-    border-width: thin;
+	background: #FDF5E6;		
+    position: relative;
+	
+    border-width: medium;
     border-color:brown;
     border-style: solid;
-    width:60%;
-    height:600px;
-    top:33px;
-    left:45px;
+    width:60vw;				/* Completely removed pixel unit from preview.html css */
+    height:500px;
+    top: 2vh;
+    left:2.5vh;
+	margin-right: 4vw;
+	margin-top:50px;
 }
 p{
-    font-size: 60px;
+	text-align: center;
+    font-size: 6vw;
+	font-size: 4vw;
     color:chocolate;
 }
 #opt{
     text-align:center;
-    float:right;
-    height: 650px;
-    width:30%;
+    
+    height: 500px;
+    width:400px;
     border-color: brown;
     border-style: solid;
-    border-width: thin;
+    border-width: medium;
     background-color: bisque;
     position: relative;
-    top:10px;
-    right:30px;
+    top: 2vw;
+	right:2.5vw;
+	margin-left: 4vw;
+  
     border-radius: 30px;
+	margin-bottom:2vw;
+	margin-top:40px;
 }
+/* Added h1 style for preview page */
+#opt h1 {
+	
+	font-size: 60px;	
+	text-align: center;
+    color:chocolate;
+};
 .t{
-    align-items: center;
-    font-size: 20px;
+	
+ 
+
+	font-size: 30px;		
     color:chocolate;
     padding-bottom: 20px;
 }
 .tl{
-    width:250px;
-    text-align: center;
+	margin-left:2vw;
+    width:35px; 
+	font-size: 30px;
+	
 }
 .tb{
     align-content: center;
+	margin-right:2vw;
+    width:35px;
+	text-align:center;
+	font-size: 30px;
 }
 .bu{
-    width:100px;
+	align-text: center;
+	margin-left: 20px;
+    width:150px;
+	text-align:center;
+	font-size: 30px;
+	padding-left:1vw;
 }
 #tp{
     position: relative;
@@ -143,6 +179,7 @@ input[type=text], input[type=password] {
     }    
 }
 
+/* Check later */ 
 #up{
     width:290px;
     margin-left: 58px;
@@ -162,3 +199,4 @@ input[type=text], input[type=password] {
     background-color: antiquewhite;
     border-color: brown;
 }
+
