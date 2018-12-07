@@ -1,3 +1,4 @@
+
 *{
     margin:0px;
 }
@@ -78,7 +79,7 @@ p{
 }
 #min{
     height:70px;
- }
+}
 #sub{
     height: 80px;
 }
@@ -91,7 +92,7 @@ input{
     background-color: antiquewhite;
     border-color: brown;
 }
-           
+        
 form {
     border: 3px solid #f1f1f1;
 }
@@ -108,23 +109,27 @@ input[type=text], input[type=password] {
 #bu {
     background-color: #4CAF50;
     color: white;
-    height:47px;
+    height:5%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     border: none;
     cursor: pointer;
-    width: 50%;
-    border-radius:15px;
+    width: 30%;
 }
 #bu:hover {
     opacity: 0.8;
 }
+.body_login{
+    background-color: darkorange;
+    padding: 5% 0;
+}
 .container{
     text-align: center;
     background-color: teal;
-    margin-top:150px;
-    width:600px;
+    
+    padding: 10% 0;
+}
 }
 @media screen and (max-width: 300px) {
     .container{
