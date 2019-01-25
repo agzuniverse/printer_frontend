@@ -61,7 +61,7 @@ p{
 
 
 #ta{
-    width:80%;
+    width:75%;
     border-style: solid;
     border-width: thin;
     border-color: brown;
@@ -70,6 +70,7 @@ p{
     top:200px;
     margin-left: auto;
     margin-right: auto;
+    border-top: solid 2px brown;
 }
 .tda{
     border-style: solid;
@@ -126,7 +127,7 @@ input[type=text], input[type=password] {
 }
 .container{
     text-align: center;
-    background-color: teal;
+    
     
     padding: 10% 0;
 }
@@ -162,3 +163,9 @@ input[type=text], input[type=password] {
     background-color: antiquewhite;
     border-color: brown;
 }
+
+#jum{
+    background-color: #8FAEE8;
+    border-radius: 40px !important;
+}
+

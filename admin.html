@@ -11,67 +11,71 @@
 </head>
 
 <body>
-    <table id="ta">
-        <tr id="min">
-            <td class="sl tda">
-                Admn No.
-            </td>
-            <td class="name tda">
-                User Name
-            </td>
-            <td class="sel tda">
-                Class
-            </td>
-            <td class="year tda">
-                Year
-            </td>
-            <td class="credit tda">
-                Current Credits
-            </td>
-            <td class="add tda">
-                Add Credits
-            </td>
-            <td class="but tda">\
-            </td>
-        </tr>
-        <tr id="sub">
-            <td class="sl tda">
-                <input class="inp" type="search" placeholder="eg: 0000-00" pattern="[0-9]{4}[\-]?[0-9]{2}">
-            </td>
-            <td class="name tda">
-                <input class="inp" type="search" placeholder="username">
-            </td>
-            <td class="sel tda">
-                <select class="sele">
-                    <option>CSA</option>
-                    <option>CSB</option>
-                    <option>ECA</option>
-                    <option>ECB</option>
-                    <option>EE</option>
-                    <option>EB</option>
-                </select>
-            </td>
-            <td class="year tda">
-                <select class="sele">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
-            </td>
-            <td class="credit tda">
-                <output name="cre" for="#"></output>
-            </td>
-            <td class="add tda">
-                <input class="inp" type="number" placeholder="add credit">
-            </td>
-            <td class="but tda">
-                <button type="button" class="btn btn-danger bu">
-                    add
-                </button>
-            </td>
-        </tr>
-    </table>
+    <div>
+        <table id="ta" class="table table-responsive-lg">
+        
+            <tr id="min">
+                <th class="sl tda" scope="col">
+                    Admn No.
+                </th>
+                <th class="name tda" scope="col">
+                    User Name
+                </th>
+                <th class="sel tda" scope="col">
+                    Class
+                </th>
+                <th class="year tda" scope="col">
+                    Year
+                </th>
+                <th class="credit tda" scope="col">
+                    Current Credits
+                </th>
+                <th class="add tda" scope="col">
+                    Add Credits
+                </th>
+                <th class="but tda" scope="col">\
+                </th>
+            </tr>
+            <tr id="sub">
+                <td class="sl tda">
+                    <input class="inp" type="search" placeholder="eg: 0000-00" pattern="[0-9]{4}[\-]?[0-9]{2}">
+                </td>
+                <td class="name tda">
+                    <input class="inp" type="search" placeholder="username">
+                </td>
+                <td class="sel tda">
+                    <select class="sele">
+                        <option>CSA</option>
+                        <option>CSB</option>
+                        <option>ECA</option>
+                        <option>ECB</option>
+                        <option>EE</option>
+                        <option>EB</option>
+                    </select>
+                </td>
+                <td class="year tda">
+                    <select class="sele">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </td>
+                <td class="credit tda">
+                    <output name="cre" for="#"></output>
+                </td>
+                <td class="add tda">
+                    <input class="inp" type="number" placeholder="add credit">
+                </td>
+                <td class="but tda">
+                    <button type="button" class="btn btn-danger bu">
+                        add
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
 </body>
 
 </html>
