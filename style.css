@@ -1,16 +1,21 @@
 
 *{
     margin:0px;
+    color: #da0463;
+
 }
 body{
-    background-color: #ffebd3;
+    background-color: #dbedf3 ;
+    /* opacity: 0.7; */
 }
 #scr{
     position: relative;
     display:inline-block;
     overflow: hidden;
     border-width: thin;
-    border-color: #0b032d;
+    border-color: #404b69;
+    background-color: #404b69;
+    opacity: 0.7;
     border-style: solid;
     align: bottom;
     padding: 20%;
@@ -28,7 +33,7 @@ body{
 }
 p{
     font-size: 60px;
-    color:#264e70;
+    /* color:#da0463; */
 }
 #opt{display: inline-block;
     text-align:center;
@@ -36,10 +41,11 @@ p{
     float: initial;
     height:100%;
     /* width:100%; */
-    border-color: #0b032d;
+    border-color: #404b69;
     border-style: solid;
     border-width: thin;
-    background-color: #ffebd3;
+    background-color:#404b69 ;
+    opacity: 0.7;
     position: relative;
     padding: 1.5%;
     top:0;
@@ -50,7 +56,7 @@ p{
 .t{
     align-items: center;
     font-size: 20px;
-    color: #264e70;
+    /* color: #404b69; */
     padding-bottom: 20px;
 }
 .tl{
@@ -78,18 +84,19 @@ p{
     width:75%;
     border-style: solid;
     border-width: thin;
-    border-color: brown;
-    background-color: bisque;
+    border-color:#404b69;
+    background-color: #404b69;
+    opacity: 0.7;
     position: relative;
     top:200px;
     margin-left: auto;
     margin-right: auto;
-    border-top: solid 2px brown;
+    border-top: solid 2px #283149;
 }
 .tda{
     border-style: solid;
     border-width: thin;
-    border-color: brown;
+    border-color: #283149;
     text-align: center;
 }
 #min{
@@ -101,15 +108,15 @@ p{
 input{
     border-style: solid;
     border-width: thin;
-    border-color: brown;
+    border-color: #404b69;
 }
 .sele{
-    background-color: antiquewhite;
-    border-color: brown;
+    background-color: #404b69;
+    border-color:#404b69;
 }
         
 form {
-    border: 3px solid #f1f1f1;
+    border: 3px solid #283149;
 }
 input[type=text], input[type=password] {
     position: relative;
@@ -161,12 +168,12 @@ input[type=text], input[type=password] {
 #up{
     width:290px;
     margin-left: 58px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 .se{
     width:100px;
-    background-color: antiquewhite;
-    border-color: brown;
+    background-color: white;
+    border-color: white;
 }
 .tr{
     color:chocolate;
@@ -174,12 +181,13 @@ input[type=text], input[type=password] {
 }
 #num{
     width:100px;
-    background-color: antiquewhite;
-    border-color: brown;
+    background-color: white;
+    border-color: white;
 }
 
 #jum{
-    background-color: #8FAEE8;
+    background-color: #404b69;
+    opacity: 0.7;
     border-radius: 40px !important;
 }
 
