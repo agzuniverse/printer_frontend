@@ -114,9 +114,9 @@ input{
     background-color: #404b69;
     border-color:#404b69;
 }
-        
-form {
-    border: 3px solid #283149;
+
+/* form {
+    border: 3px solid #283149; */
 }
 input[type=text], input[type=password] {
     position: relative;
@@ -148,8 +148,8 @@ input[type=text], input[type=password] {
 }
 .container{
     text-align: center;
-    
-    
+
+
     padding: 10% 0;
 }
 }
@@ -162,7 +162,7 @@ input[type=text], input[type=password] {
     }
     #bu{
         width: 100%
-    }    
+    }
 }
 
 #up{
@@ -191,3 +191,10 @@ input[type=text], input[type=password] {
     border-radius: 40px !important;
 }
 
+#bor{
+  border: 1px red solid;
+  border-radius: 0.25rem;
+}
+#adm_jum{
+  border-radius: 3rem;  
+}
